@@ -56,68 +56,68 @@ function generatePassword() {
     };
 
  
-    if (!confirmLower && !confirmUpper && !confirmNumber && !confirmSpecial) {
+    if (!Lower && !Upper && !Number && !Special) {
         userSelections = alert("Please make all selections!");
 
-    } else if (confirmLower && confirmUpper && confirmNumber && confirmSpecial) {
+    } else if (Lower && Upper && Number && Special) {
         userSelections = lowers.concat(uppers, numbers, special);
        
     }
     
-    else if (confirmLower && confirmUpper && confirmNumber) {
+    else if (Lower && Upper && Number) {
         userSelections = lowers.concat(uppers, numbers);
     }
-    else if (confirmLower && confirmUpper && confirmSpecial) {
+    else if (Lower && Upper && Special) {
         userSelections = lowers.concat(uppers, special);
       
     }
-    else if (confirmLower && confirmNumber && confirmSpecial) {
+    else if (Lower && Number && Special) {
         userSelections = lowers.concat(numbers, special);
        
     }
-    else if (confirmUpper && confirmNumber && confirmSpecial) {
+    else if (Upper && Number && Special) {
         userSelections = uppers.concat(numbers, special);
       
     }
     
-    else if (confirmLower && confirmUpper) {
+    else if (Lower && Upper) {
         userSelections = lowers.concat(uppers);
         
     }
-    else if (confirmLower && confirmNumber) {
+    else if (Lower && Number) {
         userSelections = lowers.concat(numbers);
      
     }
-    else if (confirmLower && confirmSpecial) {
+    else if (Lower && Special) {
         userSelections = lowers.concat(special);
        
     }
-    else if (confirmUpper && confirmNumber) {
+    else if (Upper && Number) {
         userSelections = uppers.concat(numbers);
         
     }
-    else if (confirmUpper && confirmSpecial) {
+    else if (Upper && Special) {
         userSelections = uppers.concat(special);
        
     }
-    else if (confirmNumber && confirmSpecial) {
+    else if (Number && Special) {
         userSelections = numbers.concat(special);
        
     }
    
-    else if (confirmLower) {
+    else if (Lower) {
         userSelections = lowers;
        
     }
-    else if (confirmUpper) {
+    else if (Upper) {
         userSelections = blankUpper.concat(uppers);
        
     }
-    else if (confirmNumber) {
+    else if (Number) {
         userSelections = numbers;
        
     }
-    else if (confirmSpecial) {
+    else if (Special) {
         userSelections = special;
         
     };
