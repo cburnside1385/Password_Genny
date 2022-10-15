@@ -21,4 +21,13 @@ WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 
 
-<img src="/Images/Password_Gen1.PNG" alt="Alt text" title="Start">
+<img src="./Images/Password_Gen1.PNG" alt="Alt text" title="Start">
+<img src="./Images/Password_Gen2.PNG" alt="Alt text" title="Q1">
+<img src="./Images/Password_Gen3.PNG" alt="Alt text" title="Q2">
+<img src="./Images/Password_Gen4.PNG" alt="Alt text" title="Q3">
+<img src="./Images/Password_Gen5.PNG" alt="Alt text" title="Q4">
+
+<img src="./Images/Password_Gen6.PNG" alt="Alt text" title="Q5">
+<img src="./Images/Password_Gen7.PNG" alt="Alt text" title="Q6">
+<img src="./Images/Password_Gen8.PNG" alt="Alt text" title="Password Req">
+<img src="./Images/Password_Gen9.PNG" alt="Alt text" title="Password Req2">
