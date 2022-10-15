@@ -20,4 +20,5 @@ THEN a password is generated that matches the selected criteria
 WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 
-!(./Images/Password_Gen1.jpg?raw=true "Start")
+
+<img src="/Images/Password_Gen1.PNG" alt="Alt text" title="Start">
